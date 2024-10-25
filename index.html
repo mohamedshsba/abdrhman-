@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display
+=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/62617d6501.js" crossorigin="anonymous"></script>
+  <title>my webpage</title>
+  <style>
+body {
+
+background-image:url("/f173c423d28f518f6bcd3ddeeb168598.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+Background-size:cover;
+Background-position:center;
+}
+
+h1{
+text-align: center;
+font-family:"Noto Serif Display";
+ font-style:italic;
+  font-weight:bold;
+  text-decoration:underline;
+color:lightgrey;
+  
+}
+
+
+  
+#box1{
+font-family:"sans-serif";
+ font-style:italic;
+  font-weight:bold;
+ padding:7px;
+margin:30px;
+  justify-content:center;
+align-items:center;
+}
+
+#box4{
+font-family:"sans-serif";
+ font-style:italic;
+  font-weight:bold;
+ padding:7px;
+margin:6px;
+font-size:15px;
+justify-content:center;
+align-items:center;
+  
+}
+
+#box2{
+  justify-content:center;
+align-items:center;
+text-align: center;
+font-family:"sans-serif";
+ font-style:italic;
+  font-weight:bold;
+height:30px;
+width:100px;
+ margin:25px;
+ font-size:15px;
+border-radius:50px;
+border-width:1px;  
+width:300px;
+
+}
+
+
+#box3{
+ justify-content:center;
+align-items:center;
+border-style:outset;
+border-radius:5px;
+border-color:white;
+height:250px;
+width:340px;
+background:white;
+ 
+}
+
+.input-box input{
+border:1px solid;
+border-radius:5px;
+  
+}
+
+
+  </style>
+</head>
+
+<body>
+ <h1>login</h1>
+  <form>
+  <div id="box3">
+   <div id="box1" class="input-box">
+  <label for="hname">name:</label>
+    
+ <input type="text" id="hname" name="hname" placeholder="enter your first name" required>
+   <i class="fa-solid fa-user"></i>
+   </div>
+   
+   <div id="box4" class="input-box">
+
+ <label for="pass">password:</label>
+ <input type="password" id="pass" name="pass" placeholder="your password"
+ maxlength="8" required>
+
+<i class="fa-solid fa-lock"></i>
+ </div>
+ 
+ <label><input type="checkbox"<b>Remember me</b></label>
+ <a href="#">forgot password?</a>
+
+ <button type="submit" id="box2">log in</button>
+ 
+ 
+ 
+  </form>
+  </div>
+ 
+</body>
+</html>

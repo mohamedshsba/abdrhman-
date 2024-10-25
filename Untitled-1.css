@@ -1,0 +1,79 @@
+body {
+
+    background-image:url("/f173c423d28f518f6bcd3ddeeb168598.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    Background-size:cover;
+    Background-position:center;
+    }
+    
+    h1{
+    text-align: center;
+    font-family:"Noto Serif Display";
+     font-style:italic;
+      font-weight:bold;
+      text-decoration:underline;
+    color:lightgrey;
+      
+    }
+    
+    
+      
+    #box1{
+    font-family:"sans-serif";
+     font-style:italic;
+      font-weight:bold;
+     padding:7px;
+    margin:30px;
+      justify-content:center;
+    align-items:center;
+    }
+    
+    #box4{
+    font-family:"sans-serif";
+     font-style:italic;
+      font-weight:bold;
+     padding:7px;
+    margin:6px;
+    font-size:15px;
+    justify-content:center;
+    align-items:center;
+      
+    }
+    
+    #box2{
+      justify-content:center;
+    align-items:center;
+    text-align: center;
+    font-family:"sans-serif";
+     font-style:italic;
+      font-weight:bold;
+    height:30px;
+    width:100px;
+     margin:25px;
+     font-size:15px;
+    border-radius:50px;
+    border-width:1px;  
+    width:300px;
+    
+    }
+    
+    
+    #box3{
+     justify-content:center;
+    align-items:center;
+    border-style:outset;
+    border-radius:5px;
+    border-color:white;
+    height:250px;
+    width:340px;
+    background:white;
+     
+    }
+    
+    .input-box input{
+    border:1px solid;
+    border-radius:5px;
+      
+    }
+    
